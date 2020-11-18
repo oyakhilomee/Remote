@@ -98,9 +98,33 @@ body {
 
 // Start of about section
 
+.strategy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: yellow;
+    width: 100%;
+    @media screen and (min-width:768px){
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        align-items: center;
+    }
+    .img-stratregy-div {
+        display: flex;
+        justify-content: center;
+    width: 50%;
+    background-color: green;
+    }
+    .strategy-div {
+        background-color: red;
+        width: 50%;
+    }
+}
+
 .version-control {
-    height: 32rem;
-    width: 32rem;
+    height: 22rem;
+    width: 22rem;
 }
 
 .information-architecture {
