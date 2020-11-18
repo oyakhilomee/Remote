@@ -2,12 +2,12 @@
 var typed = new Typed (".type", {
    
     strings: [
-    "Frontend Developer",
-    "Writer",
+    "Developer",
+    "Technical Writer",
     "Climate Activist",
     ],
-    typeSpeed: 120,
-    backSpeed: 120,
+    typeSpeed: 80,
+    backSpeed: 80,
     loop: true,
 });
 
