@@ -45,6 +45,7 @@ body {
 }
 
 .navli {
+    text-align: center;
     @media screen and (min-width:768px){
         display: flex;
         padding: 1rem 1rem 1rem 1rem;
@@ -60,8 +61,8 @@ body {
 // Start of home section style 
 
 .landing {
-  
-    // flex-direction: column-reverse;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     @media screen and (min-width:768px){
         display: flex;
@@ -98,6 +99,14 @@ body {
 
 // Start of about section
 
+
+// strategy div
+
+.version-control {
+    height: 22rem;
+    width: 22rem;
+}
+
 .strategy {
     display: flex;
     flex-direction: column;
@@ -121,16 +130,43 @@ body {
         width: 50%;
     }
 }
+// end of strategy div
 
-.version-control {
+
+// .information-architecture
+
+.information-architecture-img {
     height: 22rem;
     width: 22rem;
 }
 
 .information-architecture {
-    height: 32rem;
-    width: 32rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: yellow;
+width: 100%;
+@media screen and (min-width:768px){
+    display: flex;
+    flex-direction: row-reverse;
+    justify-self: center;
+    align-items: center;
 }
+.img-information-architecture-div {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: green;
+}
+.information-architecture-div {
+    background-color: blue;
+    width: 50%;
+    padding-left: 2rem;
+}
+}
+
+// end of .information-architecture
+
 
 .design {
     height: 32rem;
@@ -143,5 +179,3 @@ body {
     height: 32rem;
     width: 32rem;
 }
-
-// Start of contact section

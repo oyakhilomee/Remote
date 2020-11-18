@@ -47,6 +47,10 @@ body {
   }
 }
 
+.navli {
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   .navli {
     display: -webkit-box;
@@ -61,6 +65,13 @@ body {
 }
 
 .landing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -112,6 +123,11 @@ body {
   margin-top: 1rem;
 }
 
+.version-control {
+  height: 22rem;
+  width: 22rem;
+}
+
 .strategy {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -159,14 +175,57 @@ body {
   width: 50%;
 }
 
-.version-control {
+.information-architecture-img {
   height: 22rem;
   width: 22rem;
 }
 
 .information-architecture {
-  height: 32rem;
-  width: 32rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: yellow;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .information-architecture {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    justify-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.information-architecture .img-information-architecture-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  background-color: green;
+}
+
+.information-architecture .information-architecture-div {
+  background-color: blue;
+  width: 50%;
+  padding-left: 2rem;
 }
 
 .design {
