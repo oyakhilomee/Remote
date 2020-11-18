@@ -32,7 +32,7 @@ body {
     width: 100%;
     max-width: 90%;
     margin: 0 auto;
-    background-color: red;
+    // background-color: red;
 
 }
 }
@@ -59,9 +59,40 @@ body {
 
 // Start of home section style 
 
+.landing {
+  
+    // flex-direction: column-reverse;
+    align-items: center;
+    @media screen and (min-width:768px){
+        display: flex;
+        background-color: red;
+        justify-content: center;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
 .img-home {
     height: 32rem;
-    width: 32rem;
+    width: 27rem;
+}
+
+.btn-view {
+    padding: .7rem 1rem .7rem 1rem;
+    border-radius: 1.2rem;
+    margin-top: 1rem;
+    border: none;
+    background-color: #0a0724;
+    color: #fff;
+}
+
+.social-ul {
+    display: flex;
+    li {
+        padding-right: 1rem;
+        margin-top: 1rem;
+    }
 }
 
 
