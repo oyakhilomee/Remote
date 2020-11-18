@@ -14,4 +14,9 @@ a:hover {
 li {
   list-style: none;
 }
+
+.img-home {
+  height: 32rem;
+  width: 32rem;
+}
 /*# sourceMappingURL=home.css.map */
