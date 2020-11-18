@@ -5,6 +5,7 @@
 
 a {
     text-decoration: none;
+    color: #000000;
 }
 
 a:hover {
@@ -15,15 +16,56 @@ li {
     list-style: none;
 }
 
-body {
+html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+// Start of Nav Section Style
+
+.nav-div {
+    @media screen and (min-width:768px){
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: red;
+
+}
+}
+
+.brand-logo {
+    @media screen and (min-width:768px){
+        display: flex;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+}
+
+.navli {
+    @media screen and (min-width:768px){
+        display: flex;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+}
+
+.list-anchor {
+    padding-left: 1rem;
+}
+
+
+
+// Start of home section style 
 
 .img-home {
     height: 32rem;
     width: 32rem;
 }
+
+
+// Start of about section
 
 .version-control {
     height: 32rem;
@@ -40,8 +82,11 @@ body {
     width: 32rem;
 }
 
+// Start of work section
 
 .work-pic {
     height: 32rem;
     width: 32rem;
 }
+
+// Start of contact section

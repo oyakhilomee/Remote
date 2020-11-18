@@ -5,6 +5,7 @@
 
 a {
   text-decoration: none;
+  color: #000000;
 }
 
 a:hover {
@@ -15,8 +16,49 @@ li {
   list-style: none;
 }
 
-body {
+html {
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: red;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .brand-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navli {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+}
+
+.list-anchor {
+  padding-left: 1rem;
 }
 
 .img-home {
