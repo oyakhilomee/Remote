@@ -91,6 +91,11 @@ body {
   color: #fff;
 }
 
+.btn-view:hover {
+  background-color: #037ef3;
+  cursor: pointer;
+}
+
 .social-ul {
   display: flex;
   li {
@@ -326,4 +331,41 @@ body {
 
     margin-top: 4rem;
   }
+}
+
+.left-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 2rem;
+  }
+  @media screen and (min-width: 830px) {
+    margin-left: 0;
+  }
+}
+
+.contact-ul {
+  display: flex;
+}
+
+.start-new-btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1.1rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #0a0724;
+  color: #fff;
+}
+
+.start-new-btn:hover {
+  background-color: #037ef3;
+  cursor: pointer;
+}
+
+.contact-li {
+  padding: 1rem;
 }

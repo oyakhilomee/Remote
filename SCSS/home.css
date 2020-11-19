@@ -116,6 +116,11 @@ body {
   color: #fff;
 }
 
+.btn-view:hover {
+  background-color: #037ef3;
+  cursor: pointer;
+}
+
 .social-ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -487,5 +492,63 @@ body {
             justify-content: space-evenly;
     margin-top: 4rem;
   }
+}
+
+.left-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .left-contact {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (min-width: 830px) {
+  .left-contact {
+    margin-left: 0;
+  }
+}
+
+.contact-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.start-new-btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1.1rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #0a0724;
+  color: #fff;
+}
+
+.start-new-btn:hover {
+  background-color: #037ef3;
+  cursor: pointer;
+}
+
+.contact-li {
+  padding: 1rem;
 }
 /*# sourceMappingURL=home.css.map */
