@@ -173,8 +173,13 @@ body {
   }
   .information-architecture-div {
     // background-color: blue;
-    width: 50%;
+    width: 90%;
     padding-left: 2rem;
+    padding-right: 2rem;
+    @media screen and (min-width: 768px) {
+      width: 50%;
+      //   background-color: brown;
+    }
   }
 }
 
@@ -210,14 +215,58 @@ body {
   }
   .design-div-class {
     // background-color: blue;
-    width: 50%;
-    padding-left: 2rem;
+    width: 90%;
+    @media screen and (min-width: 768px) {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
   }
 }
 
 // Start of work section
 
 .work-pic {
-  height: 32rem;
-  width: 32rem;
+  height: 22rem;
+  width: 22rem;
+}
+
+.h2-work {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.work-box-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+  }
+}
+
+.work-box-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+  }
 }

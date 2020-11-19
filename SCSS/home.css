@@ -247,8 +247,15 @@ body {
 }
 
 .information-architecture .information-architecture-div {
-  width: 50%;
+  width: 90%;
   padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .information-architecture .information-architecture-div {
+    width: 50%;
+  }
 }
 
 .design {
@@ -304,12 +311,101 @@ body {
 }
 
 .design-div .design-div-class {
-  width: 50%;
-  padding-left: 2rem;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .design-div .design-div-class {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 .work-pic {
-  height: 32rem;
-  width: 32rem;
+  height: 22rem;
+  width: 22rem;
+}
+
+.h2-work {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.work-box-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .work-box-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+.work-box-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .work-box-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 2rem;
+  }
 }
 /*# sourceMappingURL=home.css.map */
