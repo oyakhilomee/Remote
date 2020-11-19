@@ -190,8 +190,20 @@ body {
 }
 
 .strategy .strategy-div {
-  width: 50%;
+  width: 90%;
   padding-left: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .strategy .strategy-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50%;
+  }
 }
 
 .information-architecture-img {

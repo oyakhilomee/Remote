@@ -139,8 +139,13 @@ body {
   }
   .strategy-div {
     // background-color: red;
-    width: 50%;
+    width: 90%;
     padding-left: 2rem;
+    @media screen and(min-width:768px) {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+    }
   }
 }
 // end of strategy div
