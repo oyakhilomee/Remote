@@ -228,6 +228,10 @@ body {
 .work-pic {
   height: 22rem;
   width: 22rem;
+  margin-top: 4rem;
+  @media screen and (min-width: 768px) {
+    margin-top: none;
+  }
 }
 
 .h2-work {
@@ -299,5 +303,27 @@ body {
   }
   .work-pic-four {
     border-radius: 0.7rem;
+  }
+}
+
+// Start of contact section
+
+.contact-img {
+  height: 22rem;
+  width: 22rem;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+    margin-top: 4rem;
   }
 }
