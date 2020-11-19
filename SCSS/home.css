@@ -104,7 +104,15 @@ body {
 
 .img-home {
   height: 32rem;
-  width: 27rem;
+  width: 32rem;
+  max-width: 90%;
+}
+
+@media screen and (max-width: 440px) {
+  .img-home {
+    width: 100%;
+    max-width: 90%;
+  }
 }
 
 .btn-view {
