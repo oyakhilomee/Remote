@@ -1,181 +1,223 @@
-*, html {
-    margin: 0;
-    padding: 0;
+*,
+html {
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
-    color: #000000;
+  text-decoration: none;
+  color: #000000;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+.mt-1 {
+  margin-top: 1rem;
 }
 
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 // Start of Nav Section Style
 
 .nav-div {
-    @media screen and (min-width:768px){
+  @media screen and (min-width: 768px) {
     display: flex;
     justify-content: space-between;
     width: 100%;
     max-width: 90%;
     margin: 0 auto;
     // background-color: red;
-
-}
+  }
 }
 
 .brand-logo {
-    @media screen and (min-width:768px){
-        display: flex;
-        padding: 1rem 1rem 1rem 1rem;
-    }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    padding: 1rem 1rem 1rem 1rem;
+  }
 }
 
 .navli {
-    text-align: center;
-    @media screen and (min-width:768px){
-        display: flex;
-        padding: 1rem 1rem 1rem 1rem;
-    }
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    padding: 1rem 1rem 1rem 1rem;
+  }
 }
 
 .list-anchor {
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
 
-
-
-// Start of home section style 
+// Start of home section style
 
 .landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 768px) {
     display: flex;
-    flex-direction: column;
+    // background-color: red;
+    justify-content: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
     align-items: center;
-    @media screen and (min-width:768px){
-        display: flex;
-        // background-color: red;
-        justify-content: center;
-        flex-direction: row-reverse;
-        justify-content: space-around;
-        align-items: center;
-    }
+  }
 }
 
 .img-home {
-    height: 32rem;
-    width: 27rem;
+  height: 32rem;
+  width: 27rem;
 }
 
 .btn-view {
-    padding: .7rem 1rem .7rem 1rem;
-    border-radius: 1.2rem;
-    margin-top: 1rem;
-    border: none;
-    background-color: #0a0724;
-    color: #fff;
+  padding: 0.7rem 1rem 0.7rem 1rem;
+  border-radius: 1.2rem;
+  margin-top: 1rem;
+  border: none;
+  background-color: #0a0724;
+  color: #fff;
 }
 
 .social-ul {
-    display: flex;
-    li {
-        padding-right: 1rem;
-        margin-top: 1rem;
-    }
+  display: flex;
+  li {
+    padding-right: 1rem;
+    margin-top: 1rem;
+  }
 }
 
-
 // Start of about section
-
 
 // strategy div
 
 .version-control {
-    height: 22rem;
-    width: 22rem;
+  height: 22rem;
+  width: 22rem;
 }
 
 .strategy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // background-color: yellow;
+  width: 100%;
+  @media screen and (min-width: 768px) {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-self: center;
     align-items: center;
-    // background-color: yellow;
-    width: 100%;
-    @media screen and (min-width:768px){
-        display: flex;
-        flex-direction: row;
-        justify-self: center;
-        align-items: center;
-    }
-    .img-stratregy-div {
-        display: flex;
-        justify-content: center;
-    width: 50%;
+  }
+  .img-stratregy-div {
+    display: flex;
+    justify-content: center;
+    width: 90%;
     // background-color: green;
+    @media screen and(min-width:768px) {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+      //   background-color: grey;
     }
-    .strategy-div {
-        // background-color: red;
-        width: 50%;
-    }
+  }
+  .strategy-div {
+    // background-color: red;
+    width: 50%;
+    padding-left: 2rem;
+  }
 }
 // end of strategy div
-
 
 // .information-architecture
 
 .information-architecture-img {
-    height: 22rem;
-    width: 22rem;
+  height: 22rem;
+  width: 22rem;
 }
 
 .information-architecture {
-display: flex;
-flex-direction: column;
-align-items: center;
-background-color: yellow;
-width: 100%;
-@media screen and (min-width:768px){
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //   background-color: yellow;
+  width: 100%;
+  @media screen and (min-width: 768px) {
     display: flex;
     flex-direction: row-reverse;
     justify-self: center;
     align-items: center;
-}
-.img-information-architecture-div {
+  }
+  .img-information-architecture-div {
     display: flex;
     justify-content: center;
-    width: 50%;
-    background-color: green;
-}
-.information-architecture-div {
-    background-color: blue;
+    width: 90%;
+    // background-color: green;
+    @media screen and (min-width: 768px) {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+      //   background-color: gold;
+    }
+  }
+  .information-architecture-div {
+    // background-color: blue;
     width: 50%;
     padding-left: 2rem;
-}
+  }
 }
 
 // end of .information-architecture
 
-
 .design {
-    height: 32rem;
-    width: 32rem;
+  height: 32rem;
+  width: 32rem;
+}
+
+.design-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //   background-color: yellow;
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+  }
+  .img-design-div {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    // background-color: red;
+    @media screen and (min-width: 768px) {
+      //   background-color: green;
+      width: 50%;
+      padding-left: 2rem;
+    }
+  }
+  .design-div-class {
+    // background-color: blue;
+    width: 50%;
+    padding-left: 2rem;
+  }
 }
 
 // Start of work section
 
 .work-pic {
-    height: 32rem;
-    width: 32rem;
+  height: 32rem;
+  width: 32rem;
 }
