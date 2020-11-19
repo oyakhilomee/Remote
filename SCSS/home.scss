@@ -234,6 +234,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   font-size: 2.4rem;
+  margin-bottom: 3rem;
 }
 
 .d-flex {
@@ -244,6 +245,23 @@ body {
   display: block;
 }
 
+.view-work-btn {
+  padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+  width: 100%;
+  background-color: #037ef3;
+  color: #fff;
+  border: none;
+  border: 0.2rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.view-work-btn:hover {
+  background-color: #0a0724;
+  color: #fff;
+  cursor: pointer;
+}
 .work-box-one {
   display: flex;
   flex-direction: column;
@@ -254,6 +272,13 @@ body {
     flex-direction: row;
     justify-content: center;
     justify-content: space-around;
+  }
+  .work-pic-one {
+    border-radius: 0.7rem;
+  }
+
+  .work-pic-two {
+    border-radius: 0.7rem;
   }
 }
 
@@ -268,5 +293,11 @@ body {
     justify-content: center;
     justify-content: space-around;
     margin-top: 2rem;
+  }
+  .work-pic-three {
+    border-radius: 0.7rem;
+  }
+  .work-pic-four {
+    border-radius: 0.7rem;
   }
 }
