@@ -1,9 +1,10 @@
-const sr = ScrollReveal({
+let sr = ScrollReveal({
     origin: 'top',
     distance: '120px',
     duration: 2000,
     reset: true
 })
+
 
 // REVEAL for Landing
 
