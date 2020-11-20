@@ -77,6 +77,16 @@ body {
     align-items: center;
   }
 
+  .hello,
+  .landing-h1 {
+    @media screen and (min-width: 768px) {
+      font-size: 2.5rem;
+    }
+    @media screen and (min-width: 1300px) {
+      font-size: 4rem;
+    }
+  }
+
   .left {
     text-align: center;
     //   margin: 0 auto;
@@ -91,6 +101,10 @@ body {
         display: flex;
         justify-content: flex-start;
       }
+    }
+    .type {
+      color: #037ef3;
+      font-weight: bold;
     }
   }
 }
@@ -265,22 +279,21 @@ body {
 
 // Start of work section
 
-.work-pic {
-  height: 22rem;
-  width: 22rem;
-  //   max-width: 90%;
-  //   margin: 0 auto;
-  margin-top: 4rem;
-  @media screen and (min-width: 768px) {
-    margin-top: none;
-  }
-}
-
 .h2-work {
   text-align: center;
   text-transform: uppercase;
   font-size: 2.4rem;
-  margin-bottom: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+.work-pic {
+  height: 22rem;
+  width: 22rem;
+  margin-top: 1rem;
+  @media screen and (min-width: 768px) {
+    margin-top: none;
+  }
 }
 
 .d-flex {
