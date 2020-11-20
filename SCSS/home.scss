@@ -83,6 +83,7 @@ body {
 
   .hello,
   .landing-h1 {
+    color: #312d2d;
     @media screen and (min-width: 768px) {
       font-size: 2.5rem;
     }
@@ -157,9 +158,13 @@ body {
     margin-top: 1rem;
   }
 }
+.fa {
+  color: #312d2d;
+}
 
 .fa:hover {
   color: #037ef3;
+  color: #312d2d;
 }
 
 // Start of about section

@@ -112,6 +112,11 @@ body {
   }
 }
 
+.landing .hello,
+.landing .landing-h1 {
+  color: #312d2d;
+}
+
 @media screen and (min-width: 768px) {
   .landing .hello,
   .landing .landing-h1 {
@@ -221,8 +226,13 @@ body {
   margin-top: 1rem;
 }
 
+.fa {
+  color: #312d2d;
+}
+
 .fa:hover {
   color: #037ef3;
+  color: #312d2d;
 }
 
 .version-control {
