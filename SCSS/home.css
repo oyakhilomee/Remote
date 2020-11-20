@@ -353,8 +353,8 @@ body {
 }
 
 .design {
-  height: 32rem;
-  width: 32rem;
+  height: 22rem;
+  width: 27rem;
 }
 
 .design-div {
@@ -410,6 +410,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .design-div .design-div-class {
+    width: 50%;
     padding-left: 2rem;
     padding-right: 2rem;
   }
