@@ -66,6 +66,7 @@ body {
 .landing {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   @media screen and (min-width: 768px) {
     display: flex;
@@ -75,12 +76,41 @@ body {
     justify-content: space-around;
     align-items: center;
   }
+
+  .left {
+      text-align: center;
+    //   margin: 0 auto;
+      @media screen and (min-width:768px){
+        text-align: left;
+        
+    }
+
+      .social-div {
+        display: flex;
+        justify-content: center;
+        @media screen and (min-width:768px){
+            display: flex;
+            justify-content: flex-start;
+            
+        }
+      }
+  }
 }
 
 .img-home {
-  height: 32rem;
-  width: 32rem;
+  height: 28rem;
+  width: 21rem;
+  max-width: 95%;
+  margin-top: 1rem;
+  @media screen and (min-width:262px) {
+    height: 20rem;
+    width: 15rem;
+  }
+
   @media screen and (min-width: 768px) {
+    height: 32rem;
+    width: 25rem;
+    // background-color: red;
   }
 }
 
@@ -240,6 +270,8 @@ body {
 .work-pic {
   height: 22rem;
   width: 22rem;
+//   max-width: 90%;
+//   margin: 0 auto;
   margin-top: 4rem;
   @media screen and (min-width: 768px) {
     margin-top: none;

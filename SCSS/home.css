@@ -77,6 +77,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -102,9 +105,55 @@ body {
   }
 }
 
+.landing .left {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .landing .left {
+    text-align: left;
+  }
+}
+
+.landing .left .social-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .landing .left .social-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
 .img-home {
-  height: 32rem;
-  width: 32rem;
+  height: 28rem;
+  width: 21rem;
+  max-width: 95%;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 262px) {
+  .img-home {
+    height: 20rem;
+    width: 15rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .img-home {
+    height: 32rem;
+    width: 25rem;
+  }
 }
 
 .btn-view {
