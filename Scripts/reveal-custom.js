@@ -29,13 +29,13 @@ sr.reveal('.design-div-class',{delay:300});
 
 // Scroll Reveal for Work Section
 
-sr.reveal('.work-pic-one-div',{delay:200});
+sr.reveal('.work-pic-one-div',{delay:100});
 
-sr.reveal('.work-pic-two-div',{delay:400});
+sr.reveal('.work-pic-two-div',{delay:200});
 
-sr.reveal('.work-pic-three-div',{delay:600});
+sr.reveal('.work-pic-three-div',{delay:300});
 
-sr.reveal('.work-pic-four-div',{delay:800});
+sr.reveal('.work-pic-four-div',{delay:400});
 
 
 // Scroll Reveal for Contact Section
