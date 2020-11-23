@@ -69,6 +69,11 @@ body {
   padding-left: 4rem;
 }
 
+.list-anchor:hover {
+  padding-left: 4rem;
+  color: #037ef3;
+}
+
 .landing {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -110,11 +115,6 @@ body {
   .landing {
     margin-left: 0;
   }
-}
-
-.landing .hello,
-.landing .landing-h1 {
-  color: #312d2d;
 }
 
 @media screen and (min-width: 768px) {
@@ -226,13 +226,16 @@ body {
   margin-top: 1rem;
 }
 
-.fa {
-  color: #312d2d;
+.fa-linkedin:hover {
+  color: #037ef3;
 }
 
-.fa:hover {
+.fa-github:hover {
   color: #037ef3;
-  color: #312d2d;
+}
+
+.fa-twitter:hover {
+  color: #037ef3;
 }
 
 .version-control {

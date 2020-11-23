@@ -38,7 +38,6 @@ body {
     width: 100%;
     max-width: 90%;
     margin: 0 auto;
-    // background-color: red;
   }
 }
 
@@ -59,6 +58,13 @@ body {
 
 .list-anchor {
   padding-left: 4rem;
+  // font-weight: bold;
+}
+
+.list-anchor:hover {
+  padding-left: 4rem;
+  color: #037ef3;
+  // font-weight: bold;
 }
 
 // Start of home section style
@@ -83,7 +89,6 @@ body {
 
   .hello,
   .landing-h1 {
-    color: #312d2d;
     @media screen and (min-width: 768px) {
       font-size: 2.5rem;
     }
@@ -158,13 +163,17 @@ body {
     margin-top: 1rem;
   }
 }
-.fa {
-  color: #312d2d;
+
+.fa-linkedin:hover {
+  color: #037ef3;
 }
 
-.fa:hover {
+.fa-github:hover {
   color: #037ef3;
-  color: #312d2d;
+}
+
+.fa-twitter:hover {
+  color: #037ef3;
 }
 
 // Start of about section
