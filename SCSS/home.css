@@ -311,6 +311,7 @@ body {
 @media screen and (min-width: 768px) {
   .strategy .strategy-div {
     width: 50%;
+    max-width: 35%;
   }
 }
 
@@ -380,7 +381,12 @@ body {
 @media screen and (min-width: 768px) {
   .information-architecture .information-architecture-div {
     width: 50%;
+    max-width: 35%;
   }
+}
+
+.information-architecture .wireframing-text {
+  margin-top: 1rem;
 }
 
 .design {
@@ -442,8 +448,7 @@ body {
 @media screen and (min-width: 768px) {
   .design-div .design-div-class {
     width: 50%;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    max-width: 35%;
   }
 }
 
