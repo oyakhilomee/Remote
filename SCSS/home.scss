@@ -180,6 +180,15 @@ body {
 
 // strategy div
 
+.about-h1 {
+  text-align: center;
+  margin-top: 5rem;
+  color: #037ef3;
+  text-transform: uppercase;
+  @media screen and (min-width: 768px) {
+  }
+}
+
 .version-control {
   height: 22rem;
   width: 22rem;
@@ -305,6 +314,7 @@ body {
   font-size: 2.4rem;
   margin-top: 5rem;
   margin-bottom: 1rem;
+  color: #037ef3;
 }
 
 .work-pic {
