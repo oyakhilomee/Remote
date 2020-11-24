@@ -173,6 +173,12 @@ body {
   font-weight: lighter;
 }
 
+.landing .left .wrapper-type {
+  display: inline-block;
+  width: 200px;
+  text-align: left;
+}
+
 .img-home {
   height: 28rem;
   width: 21rem;

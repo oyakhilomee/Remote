@@ -119,6 +119,11 @@ body {
       color: #037ef3;
       font-weight: lighter;
     }
+    .wrapper-type {
+      display: inline-block;
+      width: 200px;
+      text-align: left;
+    }
   }
 }
 
@@ -216,10 +221,7 @@ body {
     }
   }
   .strategy-div {
-    // background-color: red;
     width: 90%;
-    // padding-left: 2rem;
-    // padding-right: 2rem;
     @media screen and (min-width: 768px) {
       width: 50%;
       max-width: 35%;
@@ -259,11 +261,8 @@ body {
   }
   .information-architecture-div {
     width: 90%;
-    // padding-left: 2rem;
-    // padding-right: 2rem;
     @media screen and (min-width: 768px) {
       width: 50%;
-      // background-color: red;
       max-width: 35%;
     }
   }
