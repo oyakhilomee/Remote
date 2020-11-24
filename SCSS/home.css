@@ -25,6 +25,12 @@ html {
   margin-top: 1rem;
 }
 
+@media screen and (max-width: 768px) {
+  .d-none {
+    display: none;
+  }
+}
+
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
