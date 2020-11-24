@@ -48,14 +48,29 @@ body {
 }
 
 .brand-logo {
+  display: none;
   @media screen and (min-width: 768px) {
     display: flex;
     padding: 1rem 1rem 1rem 1rem;
   }
 }
 
+.toggle-btn {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1rem;
+  padding-right: 0.9rem;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
 .navli {
   text-align: center;
+  @media screen and (max-width: 768px) {
+    background-color: #0a0724;
+  }
+
   @media screen and (min-width: 768px) {
     display: flex;
     padding: 1rem 1rem 1rem 1rem;
@@ -65,6 +80,10 @@ body {
 .list-anchor {
   padding-left: 4rem;
   // font-weight: bold;
+  color: #fff;
+  @media screen and (min-width: 768px) {
+    color: #0c0c0c;
+  }
 }
 
 .list-anchor:hover {
@@ -96,7 +115,10 @@ body {
   .hello,
   .landing-h1 {
     @media screen and (min-width: 768px) {
-      font-size: 2.5rem;
+      font-size: 1.4rem;
+    }
+    @media screen and (min-width: 825px) {
+      font-size: 2rem;
     }
     @media screen and (min-width: 1200px) {
       font-size: 3.1rem;
@@ -124,69 +146,83 @@ body {
     .type {
       color: #037ef3;
       font-weight: lighter;
+      @media screen and (min-width: 768px) {
+        font-size: 1.4rem;
+      }
+      @media screen and (min-width: 825px) {
+        font-size: 2rem;
+      }
     }
-    .wrapper-type {
-      display: inline-block;
-      width: 200px;
-      text-align: left;
+  }
+
+  .wrapper-type {
+    display: inline-block;
+    width: 210px;
+    text-align: left;
+    @media screen and (min-width: 768px) {
+      width: 220px;
+    }
+    @media screen and (min-width: 825px) {
+      width: 280px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 440px;
     }
   }
-}
 
-.img-home {
-  height: 28rem;
-  width: 21rem;
-  max-width: 95%;
-  margin-top: 1rem;
-  @media screen and (min-width: 262px) {
-    height: 20rem;
-    width: 15rem;
-  }
-
-  @media screen and (min-width: 768px) {
-    height: 32rem;
-    width: 25rem;
-  }
-}
-
-.btn-view {
-  padding: 0.7rem 1rem 0.7rem 1rem;
-  border-radius: 1.2rem;
-  margin-top: 1rem;
-  border: none;
-  background-color: #0a0724;
-  color: #fff;
-  @media screen and (min-width: 1300px) {
-    padding: 1.1rem 1.9rem 1.1rem 1.9rem;
-    border-radius: 2.2rem;
-  }
-}
-
-.btn-view:hover {
-  background-color: #037ef3;
-  cursor: pointer;
-}
-
-.social-ul {
-  display: flex;
-  li {
-    padding-right: 1.5rem;
+  .img-home {
+    height: 28rem;
+    width: 21rem;
+    max-width: 95%;
     margin-top: 1rem;
+    @media screen and (min-width: 262px) {
+      height: 20rem;
+      width: 15rem;
+    }
+    @media screen and (min-width: 768px) {
+      height: 32rem;
+      width: 25rem;
+    }
+  }
+
+  .btn-view {
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    border-radius: 1.2rem;
+    margin-top: 1rem;
+    border: none;
+    background-color: #0a0724;
+    color: #fff;
+    @media screen and (min-width: 1300px) {
+      padding: 1.1rem 1.9rem 1.1rem 1.9rem;
+      border-radius: 2.2rem;
+    }
+  }
+
+  .btn-view:hover {
+    background-color: #037ef3;
+    cursor: pointer;
+  }
+
+  .social-ul {
+    display: flex;
+    li {
+      padding-right: 1.5rem;
+      margin-top: 1rem;
+    }
+  }
+
+  .fa-linkedin:hover {
+    color: #037ef3;
+  }
+
+  .fa-github:hover {
+    color: #037ef3;
+  }
+
+  .fa-twitter:hover {
+    color: #037ef3;
   }
 }
-
-.fa-linkedin:hover {
-  color: #037ef3;
-}
-
-.fa-github:hover {
-  color: #037ef3;
-}
-
-.fa-twitter:hover {
-  color: #037ef3;
-}
-
 // Start of about section
 
 // strategy div
