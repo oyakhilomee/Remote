@@ -433,6 +433,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  // background-color: red;
   @media screen and (min-width: 768px) {
     justify-content: flex-start;
     align-items: flex-start;
@@ -441,6 +442,11 @@ body {
   @media screen and (min-width: 830px) {
     margin-left: 0;
   }
+}
+
+.right-contact {
+  display: flex;
+  justify-content: center;
 }
 
 .contact-ul {
