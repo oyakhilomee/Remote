@@ -304,8 +304,6 @@ body {
 
 .strategy .strategy-div {
   width: 90%;
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -374,8 +372,6 @@ body {
 
 .information-architecture .information-architecture-div {
   width: 90%;
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 @media screen and (min-width: 768px) {
