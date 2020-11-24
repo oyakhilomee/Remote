@@ -43,6 +43,9 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     width: 100%;
     max-width: 90%;
     margin: 0 auto;
@@ -66,6 +69,11 @@ body {
   }
 }
 
+.toggle-btn:hover {
+  color: #037ef3;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
   .navli {
     background-color: #0a0724;
@@ -83,19 +91,27 @@ body {
 }
 
 .list-anchor {
-  padding-left: 4rem;
   color: #fff;
 }
 
 @media screen and (min-width: 768px) {
   .list-anchor {
     color: #0c0c0c;
+    padding-left: 4rem;
   }
 }
 
-.list-anchor:hover {
-  padding-left: 4rem;
-  color: #037ef3;
+@media screen and (max-width: 768px) {
+  .nav-list {
+    padding-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .list-anchor:hover {
+    color: #037ef3;
+    padding-left: 4rem;
+  }
 }
 
 .landing {
@@ -213,6 +229,12 @@ body {
 @media screen and (min-width: 825px) {
   .landing .left .type {
     font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1115px) {
+  .landing .left .type {
+    font-size: 2.5rem;
   }
 }
 

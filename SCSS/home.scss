@@ -41,6 +41,7 @@ body {
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: space-between;
+    justify-content: flex-end;
     width: 100%;
     max-width: 90%;
     margin: 0 auto;
@@ -65,6 +66,11 @@ body {
   }
 }
 
+.toggle-btn:hover {
+  color: #037ef3;
+  cursor: pointer;
+}
+
 .navli {
   @media screen and (max-width: 768px) {
     background-color: #0a0724;
@@ -78,18 +84,24 @@ body {
 }
 
 .list-anchor {
-  padding-left: 4rem;
-  // font-weight: bold;
   color: #fff;
   @media screen and (min-width: 768px) {
     color: #0c0c0c;
+    padding-left: 4rem;
+  }
+}
+
+.nav-list {
+  @media screen and (max-width: 768px) {
+    padding-top: 2rem;
   }
 }
 
 .list-anchor:hover {
-  padding-left: 4rem;
-  color: #037ef3;
-  // font-weight: bold;
+  @media screen and (min-width: 768px) {
+    color: #037ef3;
+    padding-left: 4rem;
+  }
 }
 
 // Start of home section style
@@ -101,7 +113,6 @@ body {
   align-items: center;
   @media screen and (min-width: 768px) {
     display: flex;
-    // background-color: red;
     margin-left: 1rem;
     justify-content: center;
     flex-direction: row-reverse;
@@ -130,7 +141,6 @@ body {
 
   .left {
     text-align: center;
-    //   margin: 0 auto;
     @media screen and (min-width: 768px) {
       text-align: left;
     }
@@ -151,6 +161,9 @@ body {
       }
       @media screen and (min-width: 825px) {
         font-size: 2rem;
+      }
+      @media screen and (min-width: 1115px) {
+        font-size: 2.5rem;
       }
     }
   }
