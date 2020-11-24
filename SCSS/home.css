@@ -49,19 +49,6 @@ body {
   }
 }
 
-.brand-logo {
-  display: none;
-}
-
-@media screen and (min-width: 768px) {
-  .brand-logo {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 1rem 1rem 1rem 1rem;
-  }
-}
-
 .toggle-btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -79,13 +66,10 @@ body {
   }
 }
 
-.navli {
-  text-align: center;
-}
-
 @media screen and (max-width: 768px) {
   .navli {
     background-color: #0a0724;
+    text-align: center;
   }
 }
 

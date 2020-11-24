@@ -47,13 +47,13 @@ body {
   }
 }
 
-.brand-logo {
-  display: none;
-  @media screen and (min-width: 768px) {
-    display: flex;
-    padding: 1rem 1rem 1rem 1rem;
-  }
-}
+// .brand-logo {
+//   display: none;
+//   @media screen and (min-width: 768px) {
+//     display: flex;
+//     padding: 1rem 1rem 1rem 1rem;
+//   }
+// }
 
 .toggle-btn {
   display: flex;
@@ -66,9 +66,9 @@ body {
 }
 
 .navli {
-  text-align: center;
   @media screen and (max-width: 768px) {
     background-color: #0a0724;
+    text-align: center;
   }
 
   @media screen and (min-width: 768px) {
