@@ -194,6 +194,8 @@ body {
     width: 21rem;
     max-width: 95%;
     margin-top: 1rem;
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
     @media screen and (min-width: 262px) {
       height: 20rem;
       width: 15rem;
@@ -202,6 +204,11 @@ body {
       height: 32rem;
       width: 25rem;
     }
+  }
+
+  .img-home:hover {
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
   }
 
   .btn-view {
@@ -390,7 +397,7 @@ body {
   width: 22rem;
   margin-top: 1rem;
   object-fit: cover;
-  border: 0.1rem solid black;
+  border: 0.1rem solid #0a0724;
   transition: filter 0.5s ease-in-out;
   -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(100%); /* FF 35+ */

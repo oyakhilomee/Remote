@@ -276,6 +276,10 @@ body {
   width: 21rem;
   max-width: 95%;
   margin-top: 1rem;
+  -webkit-filter: grayscale(0%);
+  /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%);
+  /* FF 35+ */
 }
 
 @media screen and (min-width: 262px) {
@@ -290,6 +294,13 @@ body {
     height: 32rem;
     width: 25rem;
   }
+}
+
+.landing .img-home:hover {
+  -webkit-filter: grayscale(100%);
+  /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%);
+  /* FF 35+ */
 }
 
 .landing .btn-view {
@@ -561,7 +572,7 @@ body {
   margin-top: 1rem;
   -o-object-fit: cover;
      object-fit: cover;
-  border: 0.1rem solid black;
+  border: 0.1rem solid #0a0724;
   -webkit-transition: -webkit-filter 0.5s ease-in-out;
   transition: -webkit-filter 0.5s ease-in-out;
   transition: filter 0.5s ease-in-out;
