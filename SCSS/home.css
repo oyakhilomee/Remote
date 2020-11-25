@@ -559,6 +559,8 @@ body {
   height: 22rem;
   width: 22rem;
   margin-top: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media screen and (min-width: 768px) {
