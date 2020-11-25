@@ -561,12 +561,28 @@ body {
   margin-top: 1rem;
   -o-object-fit: cover;
      object-fit: cover;
+  border: 0.1rem solid black;
+  -webkit-transition: -webkit-filter 0.5s ease-in-out;
+  transition: -webkit-filter 0.5s ease-in-out;
+  transition: filter 0.5s ease-in-out;
+  transition: filter 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out;
+  -webkit-filter: grayscale(100%);
+  /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%);
+  /* FF 35+ */
 }
 
 @media screen and (min-width: 768px) {
   .work-pic {
     margin-top: none;
   }
+}
+
+.work-pic:hover {
+  -webkit-filter: grayscale(0%);
+  /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%);
+  /* FF 35+ */
 }
 
 .d-flex {
